@@ -20,7 +20,7 @@ Provide all PNGs you want to convert into `Input` Directory and change their nam
 **express**: ^4.18.2 \
 **fs**: ^0.0.1-security \
 **pdf-merger-js**: ^4.1.2 \
-**puppeteer**: ^19.1.1 \
+**puppeteer**: ^19.1.1
 
 ### Reason I made this
 The reason I made it is very straightforward, we all use PDFs normally for work and often we want to convert a lot of PNG files (images) into a single PDF file, the issue is that if you want to do that online services tend to give you delays, queues and even have to pay, the other issue is also PDF documents almost always contain sensitive data, let's say ID numbers, number phone, location, etc, if you were to convert those PNGs containing those data know that those PNGs got uploaded to the service host database, sure they say they won't keep and track your data, but will they? so I made this to allow anyone to convert PNGs to PDF on their own machine without having to pay nor internet at all
