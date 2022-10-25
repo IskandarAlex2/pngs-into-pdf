@@ -4,6 +4,9 @@ This is PNGs to PDF converter NodeJS script, it will convert all PNG files insid
 ### NodeJS version
 v16.15.0
 
+### Warning
+Resolution of the PNG files must be **1200**x**1683** (width, height), otherwise the PDF conversion will behave badly
+
 ### How it works
 It will start a Puppeteer browser and render all the PNG and convert it into PDF and store it into temporary directory that automatically generate and delete during execution, it do that all for given PNGs in order, after that it will merge all the PDFs in order, lastly save the result into the same directory the script living in and delete the temporary directory, everything is Sync so the execution only exits when it finished everything.
 
